@@ -1,0 +1,120 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 800px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+.main-container .header {
+  text-align: center;
+  width: 100%;
+  font-size: 22px;
+  background: #62757f;
+  padding: 5px;
+}
+.main-container .menu {
+  width: 100%;
+  padding: 0 0;
+  margin: 0 0;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #c1d5e0;
+}
+.main-container .menu .menu-item {
+  flex-shrink: 0;
+  justify-content: center;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+.main-container .menu .menu-item a {
+  color: #000000;
+}
+.main-container .menu .menu-item a:hover {
+  text-decoration: none;
+}
+.main-container .main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.main-container .main-content .avatar {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+.main-container .main-content .content {
+  margin: 0 50px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+  min-width: 200px;
+}
+.main-container .main-content .content .content-sub-header {
+  font-size: 20px;
+  flex-basis: 100%;
+  text-align: center;
+  margin: 25px 0;
+}
+.main-container .main-content .content .content-text, .main-container .main-content .content .schedule-item {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.main-container .main-content .content .schedule-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  text-align: left;
+  padding: 5px 10px;
+  border: 1px solid #17a2b8;
+  border-radius: 50vh;
+}
+.main-container .main-content .content .schedule-item .time {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  font-family: "Courier New";
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: #90a4ae;
+}
+.footer .footer-link {
+  font-size: 16px;
+  color: #000000;
+  padding: 5px 15px;
+}
+.footer .footer-link:hover {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,21 @@
+:host {
+  font-family: "Arial Black";
+}
+
+body {
+  margin: 0 auto !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 800px;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

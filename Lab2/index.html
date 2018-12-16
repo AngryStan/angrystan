@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css"><!--css with styles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Helps with responsive-->
+    <title>Table system</title>
+</head>
+<script type="text/javascript" src="script.js"></script><!--javascript file where functions are-->
+<body onload="initTable()"><!--When body is loaded launch function initTable() -->
+<div id="container">
+    <div class="header">Table</div>
+    <div class="settings-container"><!--call function on click-->
+        <button type="button" class="settings-button" onclick="changeCols()">Change cols amount to</button>
+        <input type="text" name="col-amount" class="amount-field"/><!--Input element, table cell-->
+        <span>(max. 8)</span>
+    </div>
+    <div class="settings-container">
+        <button type="button" class="settings-button" onclick="changeRows()">Change rows amount to</button>
+        <input type="text" name="row-amount" class="amount-field"/>
+        <span>(max. 20)</span>
+    </div>
+</div>
+</body>
+</html>
